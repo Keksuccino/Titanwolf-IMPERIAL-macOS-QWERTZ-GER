@@ -33,8 +33,13 @@ to:
 ~/.config/karabiner/karabiner.json
 ```
 
-The included Karabiner config swaps Control and Command globally and maps the
-Windows `DEL` key to Finder's Move to Trash shortcut.
+The included Karabiner config:
+
+- swaps Control and Command globally
+- maps the Windows `DEL` key to Finder's Move to Trash shortcut
+- maps media keys to volume, mute, playback, rewind, and fast-forward actions
+- maps app launch keys to email, file browser, calculator, Spotlight, and the
+  consumer control configuration action
 
 For this layout, Karabiner's virtual keyboard is configured with
 `keyboard_type_v2` set to `ansi`. Although the physical keyboard is ISO, this
