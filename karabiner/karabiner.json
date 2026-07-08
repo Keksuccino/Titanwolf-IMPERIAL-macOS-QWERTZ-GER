@@ -1,16 +1,18 @@
 {
+    "global": { "show_additional_menu_items": true },
     "profiles": [
         {
             "complex_modifications": {
                 "rules": [
                     {
-                        "description": "Use Windows DEL as Move to Trash in Finder",
+                        "description": "Use Windows DEL as Move to Trash in Finder and Path Finder",
                         "manipulators": [
                             {
                                 "conditions": [
                                     {
                                         "bundle_identifiers": [
-                                            "^com\\.apple\\.finder$"
+                                            "^com\\.apple\\.finder$",
+                                            "^com\\.cocoatech\\.PathFinder$"
                                         ],
                                         "type": "frontmost_application_if"
                                     },
